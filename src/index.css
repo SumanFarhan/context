@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.div1{
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.div2{
+  width: 70%;
+  margin: 10px;
+  /* text-align: center; */
+  /* line-height: 75px; */
+  /* font-size: 30px; */
+}
