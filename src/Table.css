@@ -1,0 +1,19 @@
+.MuiDataGrid-cellContent {
+  color: blue !important;
+}
+.css-r11z79-MuiDataGrid-root .MuiDataGrid-columnSeparator {
+  display: none !important;
+}
+
+.css-r11z79-MuiDataGrid-root
+  .MuiDataGrid-columnHeader--alignRight
+  .MuiDataGrid-columnHeaderDraggableContainer,
+.css-r11z79-MuiDataGrid-root
+  .MuiDataGrid-columnHeader--alignRight
+  .MuiDataGrid-columnHeaderTitleContainer {
+    flex-direction: inherit !important;
+}
+.css-f3jnds-MuiDataGrid-columnHeaders{
+    color: black !important;
+    font-weight: 700 !important;
+}

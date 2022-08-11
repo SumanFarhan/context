@@ -19,7 +19,9 @@ const App = () => {
         </div>
       </div>
       <Cloudplan/>
+      <br/>   
       <Table/>
+      <br/>
     </>
   )
 }

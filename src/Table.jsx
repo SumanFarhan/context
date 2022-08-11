@@ -1,24 +1,22 @@
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
+import './Table.css'
 
 const columns = [
-    { field: 'id', headerName: 'Tempelate', width: 70 },
-    { field: 'firstName', headerName: 'File Type', width: 130 },
-    { field: 'lastName', headerName: 'Users', width: 130 },
+    { field: 'id', headerName: 'Tempelate', width: 200 },
+    { field: 'firstName', headerName: 'File Type', width: 200 },
+    { field: 'lastName', headerName: 'Users', width: 200 },
     {
       field: 'Files',
       headerName: 'Files',
       type: 'number',
-      width: 90,
+      width: 200,
     },
     {
-      field: 'fullName',
-      headerName: 'Full name',
-      description: 'This column has a value getter and is not sortable.',
-      sortable: false,
-      width: 160,
-      valueGetter: (params) =>
-        `${params.row.firstName || ''} ${params.row.lastName || ''}`,
+      field: 'Insights',
+      headerName: 'Insights',
+      type: 'number',
+      width: 200,
     },
   ];
   
@@ -38,7 +36,7 @@ const columns = [
 const Table = () => {
   return (
     <>
-     <div style={{ height: 400, width: '100%' }}>
+     <div style={{ height: 400, width: '70%' }}>
       <DataGrid
         rows={rows}
         columns={columns}
